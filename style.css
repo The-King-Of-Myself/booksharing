@@ -1,0 +1,171 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    line-height: 50px;
+    display: flex;
+    height: 5%;
+    background-color: #5a68eb;
+}
+header h1{
+    margin: 0 50px;
+}
+header p {
+    padding: 0;
+    margin: 0 20px;   
+}
+header a:link {
+    text-decoration: none;
+    
+}
+header a:hover {
+    color: gold;
+}
+main{
+    background-image: url(./images/background_books.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 90%;
+}
+.lewy{
+    width: 14%;
+}
+.prawy{
+    width: 14%;
+}
+.srodek{
+    width: 76%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(./images/tlo_ksiazki_czb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.srodek form {
+    font-size: 200%;
+    font-style: bold 10px;
+    color: navy;
+    background-color: gold;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.srodek form input[type=submit] {
+    padding: 10px;
+    font-size: 40%;
+    background-color: navy;
+    color: white;
+}
+.srodek form input[type=button] {
+    padding: 10px;
+    font-size: 40%;
+    background-color: navy;
+    color: white;
+    margin: 10px 40px;
+}
+.srodek form p {
+    color: red;
+    font-size: 50%;
+}
+.srodek .panel {
+    font-size: 200%;
+    font-style: bold 10px;
+    color: navy;
+    background-color: gold;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.buttons button {
+    padding: 10px;
+    font-size: 70%;
+    background-color: navy;
+    color: white
+}
+footer{
+    height: 5%;
+    /* line-height: 50px; */
+    color: black;
+    background-color: #5a68eb;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+footer p {
+    padding: 0 10px;
+}
+
+
+#info {
+    height: 50%;
+    display:flex;
+}
+#info img {
+    height: 250px;
+    width: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#dane {
+    margin-left: 10px;
+}
+#dana {
+    margin-top: 22px; 
+    height: 40px;
+    width: 210px;
+    padding-left: 15px;
+    line-height: 40px;
+    background-color: rgb(206, 206, 206);
+
+}
+#zyczenia {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 400px;
+    height: 250px;
+    background-color: rgb(206, 206, 206);
+}
+#zyczenie {
+    margin-top: 15px;
+    font-size: 20px;   
+}
+hr {
+    height: 10px;
+    border: none;
+    background-color: black;
+}
+#ksiazki {
+    display: flex;
+    margin-top: 30px;
+    height: 50%x;
+}
+#ksiazka {
+    margin-left: 50px;
+    text-align: center;
+}
+#ksiazka img {
+    width: 90px;
+    height: 150px;
+}

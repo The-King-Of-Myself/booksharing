@@ -1,0 +1,2 @@
+INSERT INTO uzytkownik(imie, nazwisko, email, telefon, haslo, avatar)
+VALUES('Max', 'Payne', 'a@a.com', '123456789', 'asawgwfwqef', 'pic.jpg');

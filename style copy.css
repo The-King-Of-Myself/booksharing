@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+body, html {
+    height: 100%;
+}
+header {
+    background-color: #5a68eb;
+    color: white;
+    display: flex;
+    height: 5%;
+}
+header h1 {
+    margin-left: 50px ;
+}
+header p {
+    line-height: 250%;
+    margin-left: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header p:hover {
+    background-color: gold;
+}
+main {
+    height: 100%  ;
+    display: flex;
+    height: 90%;
+    background-image: url(./background_books.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lewy {
+    width: 14%;
+}
+.prawy {
+    width: 14%;
+}
+.srodek {
+    width: 76%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-image: url(tlo_ksiazki_czb.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.srodek form {
+    font-size: 200%;
+    font-style: bold 10px;
+    color: navy;
+    background-color: gold;
+    border-radius: 20px;
+    display: inline-block;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+.srodek form input[type=submit] {
+    padding: 10px;
+    font-size: 40%;
+    background-color: navy;
+    color: white
+}
+.srodek .panel {
+    font-size: 200%;
+    font-style: bold 10px;
+    color: navy;
+    background-color: gold;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    top: 35%;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 20px;
+}.buttons button {
+    padding: 10px;
+    font-size: 70%;
+    background-color: navy;
+    color: white
+}.buttons button:hover {
+    box-shadow: 5px 5px 5px 5px lightblue;
+}
+footer {
+    /* display: flex; */
+    position: fixed;
+    bottom: 0;
+    background-color: #5a68eb;
+    height: 5%;
+    width: 100%;
+    justify-content: center;
+}   

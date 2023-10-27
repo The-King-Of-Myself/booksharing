@@ -1,0 +1,47 @@
+Portal booksharingowy: 
+
+Użytkownicy 
+
+- id   INT autoincrement 
+- imię   VARCHAR 
+- nazwisko    VARCHAR 
+- nr telefonu    INT 
+- adres e-mail    E-MAIL 
+- hasło (walidacja)    PASSWORD 
+- avatar    VARCHAR 
+- data założenia konta    DATE 
+
+****************************************
+
+Książki:
+- id    INT autoincrement 
+- id właściciela    INT 
+- tytuł    VARCHAR 
+- autor    VARCHAR 
+- stan (nowa, , uszkodzona)      VARCHAR 
+- zdjęcia    VARCHAR 
+- nr ISBN (biblioteka narodowa – wydawnictwo, rok wydania) 
+- status (wypożyczona, zarezerwowana, dostępna) 
+
+****************************************
+
+Wypożyczenia:
+- id    INT autoincrement 
+- tytuł książki    VARCHAR 
+- data wypożyczenia    DATE 
+- data zwrotu    DATE 
+
+****************************************
+
+Życzenia:
+- id 
+- id książki 
+- id użytkownika 
+
+****************************************
+
+Płatności:
+- id użytkownika 
+- id wypożyczenia 
+- kwota 
+- termin płatności 
